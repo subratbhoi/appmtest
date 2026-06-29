@@ -1,1 +1,9 @@
-
+cd C:\Users\subra\Projects\todo-planner
+git init
+git remote add origin https://github.com/subratbhoi/appmtest
+git checkout -b main
+git fetch origin
+git pull origin main --allow-unrelated-histories --no-edit
+git add index.html
+git commit -m "Add simple to-do list planner"
+git push -u origin main
